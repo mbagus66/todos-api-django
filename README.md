@@ -31,3 +31,6 @@ Endpoint
  - POST /todos – to post a new todo
  - PUT /todos/<str:id> – to update a todo or mark as done
  - DELETE /todos/<str:id> – to delete a todo
+
+Thank to :
+https://github.com/gitgik/django-rest-api
