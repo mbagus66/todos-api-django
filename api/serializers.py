@@ -11,7 +11,7 @@ class TodosSerializer(serializers.ModelSerializer):
     class Meta:
         """Map this serializer to a model and their fields."""
         model = Todos
-        fields = ('id', 'title', 'owner', 'date_created', 'date_modified')
+        fields = ('id', 'title', 'due_datetime', 'date_created', 'date_modified', 'status', 'owner',)
         read_only_fields = ('date_created', 'date_modified')
 
 
